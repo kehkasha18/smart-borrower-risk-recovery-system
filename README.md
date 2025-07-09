@@ -117,9 +117,9 @@ The dataset simulates 500 borrower records and includes:
 ## Recovery Strategy Design
 
 
-# Risk Score > 0.75 → Aggressive Recovery
-# 0.5 – 0.75       → Settlement Offers
-# < 0.5            → Automated Reminders
+* Risk Score > 0.75 → Aggressive Recovery
+* 0.5 – 0.75       → Settlement Offers
+* < 0.5            → Automated Reminders
 
 ## Tech Stack
 Python, Pandas, NumPy
