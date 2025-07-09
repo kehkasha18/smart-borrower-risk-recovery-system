@@ -1,10 +1,10 @@
-# 💡 Smart Borrower Risk & Recovery System
+# Smart Borrower Risk & Recovery System
 
 A real-world, ML-powered solution to optimize loan recovery by profiling borrowers, detecting early risk signals, and dynamically assigning cost-effective recovery strategies.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Business Problem](#business-problem)
@@ -21,7 +21,7 @@ A real-world, ML-powered solution to optimize loan recovery by profiling borrowe
 
 ---
 
-## ✅ Overview
+## Overview
 
 Loan defaults impact the financial health of lending institutions. This project builds a **Smart Borrower Risk & Recovery System** that:
 - Uses ML to **predict repayment risks**
@@ -30,7 +30,7 @@ Loan defaults impact the financial health of lending institutions. This project 
 
 ---
 
-## 🧠 Business Problem
+## Business Problem
 
 Financial institutions face:
 - Rising loan defaults
@@ -45,7 +45,7 @@ We built a system to:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset simulates 500 borrower records and includes:
 
@@ -73,12 +73,12 @@ The dataset simulates 500 borrower records and includes:
 
 ---
 
-## 🔁 Project Architecture
+## Project Architecture
 
 
 ---
 
-## 🚀 Key Steps
+## Key Steps
 
 1. **Step 1: Data Import & Initial Exploration**
 2. **Step 2: Descriptive Statistics & Cleaning**
@@ -92,7 +92,7 @@ The dataset simulates 500 borrower records and includes:
 
 ---
 
-## 📌 Insights
+## Insights
 
 - Most loans cluster around \$5K–\$15K with a few outliers > \$100K
 - Borrowers with **0–2 missed payments** are mostly recovered
@@ -105,7 +105,7 @@ The dataset simulates 500 borrower records and includes:
 
 ---
 
-## 🔍 ML Modeling
+## ML Modeling
 
 - Target: `High_Risk_Flag` based on risky segments
 - Model: `RandomForestClassifier`
@@ -114,14 +114,14 @@ The dataset simulates 500 borrower records and includes:
 
 ---
 
-## 🎯 Recovery Strategy Design
+## Recovery Strategy Design
 
-```python
+
 # Risk Score > 0.75 → Aggressive Recovery
 # 0.5 – 0.75       → Settlement Offers
 # < 0.5            → Automated Reminders
 
-🛠️ Tech Stack
+## Tech Stack
 Python, Pandas, NumPy
 
 Plotly for visualizations
@@ -133,7 +133,7 @@ Git + GitHub
 Google Colab + VS Code
 
 
-Conclusion
+## Conclusion
 
 * This project simulates how modern financial institutions can:
 
